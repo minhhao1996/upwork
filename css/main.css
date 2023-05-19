@@ -577,6 +577,12 @@ iframe {
   .logo-text .bigger{
     font-size: 38px;
   }
+  .wrap-login100{
+      position: absolute;
+      top: 50%;
+      width: 95%;
+      transform: translatey(-50%);
+  }
     .footer{
         bottom: 5px;
         font-size: 12px;
