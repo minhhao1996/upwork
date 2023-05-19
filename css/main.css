@@ -558,9 +558,7 @@ iframe {
 
 }
 .legalNotice-small a{
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
+    color: #ffff;
 }
 
 @media (max-width: 702px) {
