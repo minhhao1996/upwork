@@ -477,7 +477,6 @@ iframe {
     }
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Social item ]*/
 .login100-social-item {
@@ -562,4 +561,22 @@ iframe {
   color: black;
   font-size: 16px;
   font-weight: bold;
+}
+
+@media (max-width: 702px) {
+  .p-b-49{
+    padding-bottom: 29px;
+  }
+  .p-b-54 {
+    padding-bottom: 27px;
+  }
+  .p-t-65 {
+    padding-top: 22px;
+  }
+  .logo-text{
+    font-size: 19px;
+  }
+  .logo-text .bigger{
+    font-size: 38px;
+  }
 }
