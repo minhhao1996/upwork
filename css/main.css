@@ -213,7 +213,9 @@ iframe {
     min-height: 100vh;
     padding: 15px;
     background-size: cover;
-    background: linear-gradient(to bottom, #005A95, #0099CC);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #141a92 100%);
+
 }
 
 .wrap-login100 {
@@ -375,10 +377,9 @@ iframe {
     width: 300%;
     height: 100%;
     background: #a64bf4;
-    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-    background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #4a16c1 100%);
+
     top: 0;
     left: -100%;
 
@@ -558,6 +559,7 @@ iframe {
   transform: translateX(-50%);
   font-size: 14px;
   color: #ffff;
+
 }
 .legalNotice-small a{
   color: black;
@@ -581,4 +583,7 @@ iframe {
   .logo-text .bigger{
     font-size: 38px;
   }
+    .footer{
+        bottom: 5px;
+    }
 }
