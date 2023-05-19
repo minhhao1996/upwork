@@ -220,9 +220,10 @@ iframe {
 
 .wrap-login100 {
     width: 500px;
-    background: #fff;
+    background-color: rgb(230, 230, 250);
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(230, 230, 250, 0.5);
 }
 
 
@@ -254,7 +255,7 @@ iframe {
 
 .label-input100 {
     font-family: Poppins-Regular;
-    font-size: 14px;
+    font-size: 16px;
     color: #333333;
     line-height: 1.5;
     padding-left: 7px;
