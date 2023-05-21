@@ -537,9 +537,11 @@ iframe {
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
+
 .logo-text .bigger {
-  font-size: 48px;
+    font-size: 48px;
 }
+
 .text-error {
     font-family: Poppins-Regular;
     font-size: 14px;
@@ -548,37 +550,42 @@ iframe {
 }
 
 .footer {
-  position: absolute;
-  bottom: 26px;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
-  font-size: 14px;
-  color: #ffff;
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #ffff;
 
 }
-.legalNotice-small a{
+
+.legalNotice-small a {
     color: #ffff;
 }
 
 @media (max-width: 702px) {
-  .p-b-49{
-    padding-bottom: 29px;
-  }
-  .p-b-54 {
-    padding-bottom: 27px;
-  }
-  .p-t-65 {
-    padding-top: 22px;
-  }
-  .logo-text{
-    font-size: 19px;
-  }
-  .logo-text .bigger{
-    font-size: 38px;
-  }
+    .p-b-49 {
+        padding-bottom: 29px;
+    }
 
-    .footer{
+    .p-b-54 {
+        padding-bottom: 27px;
+    }
+
+    .p-t-65 {
+        padding-top: 22px;
+    }
+
+    .logo-text {
+        font-size: 22px;
+    }
+
+    .logo-text .bigger {
+        font-size: 38px;
+    }
+
+    .footer {
         bottom: 5px;
         font-size: 12px;
     }
