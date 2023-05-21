@@ -673,6 +673,111 @@ if (application.getInitParameter("offlineMode") != null) {
                 </div>
                 <div class="decor2"></div>
         </div>
+        <style>
+            .LoginScreen {
+                width: 100%;
+                height: 100vh;
+        
+                background-size: cover;
+                background-color: #8BC6EC;
+                background-image: linear-gradient(135deg, #8BC6EC 0%, #141a92 100%);
+            }
+    
+            .contentBox {
+                background-color: #8EC5FC;
+                background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(230, 230, 250, 0.5);
+            }
+    
+            .LoginScreen .copyright,
+            .LoginScreen #ZLoginNotice,
+            .SplashScreen .copyright {
+                color: white;
+            }
+    
+            .LoginScreen #ZLoginNotice A {
+                color: white;
+            }
+    
+            .LoginScreen H1,
+            .SplashScreen H1 {
+                height: 96px;
+                position: relative;
+            }
+    
+            .ScreenReaderOnly {
+                clip: unset;
+                overflow: unset;
+                position: absolute !important;
+                height: unset;
+                width: unset;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0px;
+                font-family: Arial, sans-serif;
+    
+                font-weight: bold;
+                color: #333;
+                text-decoration: none;
+                text-align: center;
+    
+                letter-spacing: 1px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            }
+    
+            .ImgLoginBanner {
+                background-position: center;
+            }
+    
+            *:focus-visible {
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+            }
+    
+            .form INPUT[type='text'],
+            .form INPUT[type='password'] {
+                width: 290px;
+                height: 34px;
+            }
+            .DwtButton{
+                height: 2.8rem;
+                width: 97px;
+                background-image: linear-gradient(135deg, #0792ee 0%, #4a16c1 100%);
+            }
+            .form SELECT{
+                height: 33px;
+            }
+            .LoginScreen .contentBox, .SplashScreen .contentBox {
+                max-width: 100%;
+            }
+            @media screen and (max-width: 768px) {
+                .LoginScreen .Footer{
+                    width: 96%;
+                     margin-left: 2%;
+                }
+                .LoginScreen .center{
+                 max-width: 97%;
+                left: 256px;
+                }
+                .ImgLoginBanner{
+                    width: 100%;
+                }
+                .form INPUT[type='text'], .form INPUT[type='password'] {
+                    width: 231px;
+                    height: 30px;
+                    padding: 0 5px;
+                }
+                .LoginScreen #ZLoginWhatsThis{
+                    left: 0;
+                    margin-left: -7em;
+                    position: absolute;
+                    top: 40px;
+                    width: unset;
+                    z-index: 30;
+                }
+            }
+        </style>
 <script>
 
 <jsp:include page="/js/skin.js">
@@ -742,20 +847,7 @@ function onLoad() {
 }
 </script>
 <style>
-    .LoginScreen{
-        width: 100%;
-        height: 100vh;
-        padding: 15px;
-        background-size: cover;
-        background-color: #8BC6EC;
-        background-image: linear-gradient(135deg, #8BC6EC 0%, #141a92 100%);
-    }
-    .wrap-login100 {
-        background-color: #8EC5FC;
-        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(230, 230, 250, 0.5);
-    }
+
 </style>
 </body>
 </html>
